@@ -4,5 +4,5 @@ const app = require("../app");
 test("GET / responde Hola Mundo", async () => {
   const res = await request(app).get("/");
   expect(res.statusCode).toBe(200);
-  expect(res.text).toBe("Hola Mundo DevOps ");
+  expect(res.text).toBe("Hola Mundo DevOps 🚀");
 });
